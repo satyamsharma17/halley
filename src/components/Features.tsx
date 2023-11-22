@@ -5,10 +5,10 @@ const contents = [
   {
     title: "Dashboard",
     description:
-      "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
+      "The current system at railway stations lacks a structured approach to handle passengers' luggage.",
     features: [
       "Passengers can request porter services through a mobile app or web port",
-      "eliminating the need to physically search for assistance.",
+      "eliminating the need to search for assistance physically.",
       
     ],
     image: "/images/features/dashboard.svg",
@@ -46,8 +46,9 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
         <h2 className="text-4xl font-bold text-center">Features</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Halley nunc pulvinar lobortis duis. Leo mollis neque ullamcorper
-          aliquam sem nullam, elementum vestibulum augue placerat.
+          the problem statement for this project is to create an efficient 
+          and reliable porter service that addresses these issues.
+ .
         </p>
 
         {contents.map((content) => (
