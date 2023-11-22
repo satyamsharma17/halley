@@ -2,9 +2,11 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Dolorum molestiae",
+    title: "The hassle of  carrying heavy  luggage
+",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit laudantium",
+      "Travelers who travel with  heavy luggage find it difficult  to carry them on their own,  which can be exhausting and  time-consuming.
+",
     image: "/images/services/1.svg",
     alt: "Service description",
   },
@@ -23,24 +25,29 @@ const services = [
     alt: "Service description",
   },
   {
-    title: "Vero animi",
+    title: "Inconvenience of  finding porters
+",
     description:
-      "Dolores nemo labore soluta incidunt cumque repellat quod ducimus explicabo",
+      "Finding reliable porters at  airports, railway stations, and  other transit points can be  challenging and time-  consuming for travelers.
+",
     image: "/images/services/4.svg",
     alt: "Service description",
   },
   {
-    title: "Repudiandae pariatur",
+    title: "Limited payment  options
+",
     description:
-      "voluptatum ex molestiae quae alias quasi eum magnam maxime autem atque",
+      "Currently, travelers have  limited payment options  when it comes to paying for  porter services, which can be  inconvenient and frustrating.
+",
     image: "/images/services/5.svg",
     alt: "Service description",
   },
   {
-    title: "Placeat voluptas",
+    title: "Limited payment  options",
     description:
-      "vitae iure impedit magni consequuntur nihil consectetur laboriosam perspiciatis",
-    image: "/images/services/6.svg",
+      "Currently, travelers have  limited payment options  when it comes to paying for  porter services, which can be  inconvenient and frustrating.
+",
+    image: "/images/services/5.svg",
     alt: "Service description",
   },
 ];
