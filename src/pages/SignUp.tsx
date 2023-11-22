@@ -43,7 +43,7 @@ export default function SignUp() {
   return (
     <div style={{ backgroundColor: 'RGB(244, 63, 94)' }} className="flex justify-center h-screen w-full">
       <div className="w-full max-w-xs flex flex-col justify-center align-middle">
-        <div className="font-semibold text-4xl mb-9 text-center text-white">Calculate Price</div>
+        <div className="font-semibold text-4xl mb-9 text-center text-white">Sign Up in Kuliseva</div>
         <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 ">
 
           <div className="mb-4 outline-6">
