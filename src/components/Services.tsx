@@ -2,11 +2,10 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "The hassle of  carrying heavy  luggage
+    title: "The hassle of carrying heavy luggage
 ",
     description:
-      "Travelers who travel with  heavy luggage find it difficult  to carry them on their own,  which can be exhausting and  time-consuming.
-",
+      "Travelers who travel with  heavy luggage find it difficult  to carry them on their own,  which can be exhausting and  time-consuming.",
     image: "/images/services/1.svg",
     alt: "Service description",
   },
