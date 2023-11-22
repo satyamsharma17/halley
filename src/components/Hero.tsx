@@ -12,9 +12,7 @@ export function Hero() {
           </h1>
           <p className="pt-6 text-base w-auto sm:w-10/12 md:w-10/12 dark:text-neutral-400">
             KuliSeva aims to develop an online platform to enable booking
-            luggage transportation services by porters. Lorem ipsum dolor, sit
-            amet consectetur adipisicing elit. Ipsum laboriosam aliquam eos,
-            esse reiciendis consectetur laudantium! Atque quis
+            luggage transportation services by porters.The primary objective of the Train Porter Service Project is to improve the quality of customer service and streamline the operations at train stations. 
           </p>
           <div className="flex flex-auto pt-10 gap-2 min-w-[350px] justify-center sm:justify-start">
             <div>
