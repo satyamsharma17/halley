@@ -37,7 +37,7 @@ export default function SignUpPorter() {
   }
 
   if (submitted) {
-    return <p>We've received your message, thank you for contacting us!</p>;
+    return <p>{`We've received your message, thank you for contacting us!`}</p>;
   }
 
   return (
