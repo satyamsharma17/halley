@@ -7,9 +7,9 @@ const contents = [
     description:
       "Euismod fames in felis ornare interdum phasellus imperdiet habitant, elementum leo lobortis facilisis suscipit nullam.",
     features: [
-      "Lacus eu mauris quisque tortor torquent",
-      "Lorem ipsum dolor sit amet consectetur",
-      "Lacus eu mauris quisque tortor torquent",
+      "Passengers can request porter services through a mobile app or web port",
+      "eliminating the need to physically search for assistance.",
+      
     ],
     image: "/images/features/dashboard.svg",
     order: false,
@@ -17,11 +17,11 @@ const contents = [
   {
     title: "Products",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga natus at modi ea tempore sapiente optio, quas sint nobis pariatur.",
+      "The purpose of the train porter service project is to address the challenges faced by passengers in handling their luggage while traveling by train.",
     features: [
-      "But I must explain to you how all this mistaken",
-      "Voluptatum deleniti atque corrupti quos",
-      "He endures pains to avoid worse pains",
+      "Porters will provide information and assistance regarding train schedules",
+      "Porters will be trained in safety protocols and emergency procedures",
+      
     ],
     image: "/images/features/product.svg",
     order: true,
@@ -29,11 +29,11 @@ const contents = [
   {
     title: "Inventory",
     description:
-      "Porta facilisis ullamcorper rutrum erat luctus aliquam phasellus pharetra fusce, aliquet montes turpis mus habitasse lectus lacinia.",
+      "Many travelers struggle with heavy or bulky bags, making it difficult for them to navigate crowded platforms and board trains.",
     features: [
-      "Sed ut perspiciatis unde omnis iste natus",
-      "Quis autem vel eum iure reprehenderit",
-      "Consequuntur magni dolores eos qui ratione",
+      "The project aims to provide a dedicated service that alleviates this burden",
+      // "Quis autem vel eum iure reprehenderit",
+     
     ],
     image: "/images/features/inventory.svg",
     order: false,
