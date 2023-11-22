@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Prices() {
   const [numberOfBags, setNumberOfBags] = useState(0);
   const [weight, setWeight] = useState(0);
-  const [total, setTotal] = useState(null);
+  const [total, setTotal] = useState(0);
 
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
@@ -53,9 +53,8 @@ export default function Prices() {
   };
 
   function submit(e: any) {
-    // This will prevent page refresh
     e.preventDefault();
-    setTotal(Number(calculatePrice(numberOfBags, weight)));
+    setTotal(calculatePrice(numberOfBags, weight));
   }
 
   const FormComponent = () => {
@@ -125,7 +124,7 @@ export default function Prices() {
     );
   };
 
-  const TotalComponent = ({ bags, total, weight }) => {
+  const TotalComponent: React.FC<{ bags: number; total: number; weight: number }> = ({ bags, total, weight }) => {
     let noOfBags = Math.round(weight / 19.0);
     let noOfTrolley = Math.round(noOfBags / 10.0);
     let nightCharge = false;
@@ -144,7 +143,7 @@ export default function Prices() {
         <h2>
           Trolley Charge - {150 * noOfTrolley} ({150} x {noOfTrolley})
         </h2>
-
+  
         <h2 className="font-bold mt-3">Total - {total}</h2>
         <div className="flex items-center justify-center">
           <Link href="/SignedInPassenger" className="hidden sm:block flex">
@@ -156,6 +155,7 @@ export default function Prices() {
       </section>
     );
   };
+  
   return (
     <div
       style={{ backgroundColor: "RGB(244, 63, 94)" }}

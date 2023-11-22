@@ -8,7 +8,7 @@ export default function SignUp() {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
 
-  function submit(e) {
+  function submit(e: React.FormEvent) {
     // This will prevent page refresh
     e.preventDefault();
 

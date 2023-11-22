@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import React, { useState } from "react";
 
 export default function SignUpPorter() {
   const [email, setEmail] = useState("");
@@ -8,7 +8,7 @@ export default function SignUpPorter() {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
 
-  function submit(e) {
+  function submit(e: React.FormEvent) {
     // This will prevent page refresh
     e.preventDefault();
 
