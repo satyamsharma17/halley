@@ -9,7 +9,6 @@ const contents = [
     features: [
       "Enhances efficiency by minimizing waiting time",
       "Ensures you receive specialized assistance tailored to your requirements.",
-      
     ],
     image: "/images/features/dashboard.svg",
     order: false,
@@ -21,7 +20,6 @@ const contents = [
     features: [
       "Promotes a seamless transaction process, reducing the need for cash and providing a hygienic payment solution for users.",
       "Porters will instantly receive money in their accounts",
-      
     ],
     image: "/images/features/product.svg",
     order: true,
@@ -33,7 +31,6 @@ const contents = [
     features: [
       "Offers peace of mind, allowing users to stay informed",
       "Plan their schedule accordingly, ensuring a smooth and reliable service experience.",
-     
     ],
     image: "/images/features/inventory.svg",
     order: false,
@@ -46,8 +43,7 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
         <h2 className="text-4xl font-bold text-center">Features</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-         Experience the power of Kuliseva's innovative features, from smart porter matching to real-time service tracking and secure contactless payments, ensuring a seamless and efficient railway station assistance every time
- .
+          Experience the power of Kuliseva&rsquo;s innovative features, from smart porter matching to real-time service tracking and secure contactless payments, ensuring a seamless and efficient railway station assistance every time.
         </p>
 
         {contents.map((content) => (
@@ -56,9 +52,8 @@ export function Features() {
             className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:gap-x-28 items-center"
           >
             <div
-              className={`pt-8 md:pt-16 ${
-                content.order ? "order-1 md:order-2" : "order-1"
-              }`}
+              className={`pt-8 md:pt-16 ${content.order ? "order-1 md:order-2" : "order-1"
+                }`}
             >
               <h1 className="text-2xl font-bold">{content.title}</h1>
               <p className="pt-6 pb-6 text-base dark:text-neutral-400">
@@ -77,9 +72,8 @@ export function Features() {
               </ul>
             </div>
             <div
-              className={`order-1 pt-8 md:pt-16 ${
-                content.order ? "ml-0 2xl:-ml-40" : "mr-0 2xl:-mr-40"
-              }`}
+              className={`order-1 pt-8 md:pt-16 ${content.order ? "ml-0 2xl:-ml-40" : "mr-0 2xl:-mr-40"
+                }`}
             >
               <div className="flex items-center">
                 <Image
