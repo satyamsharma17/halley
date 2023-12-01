@@ -15,10 +15,8 @@ export default function Home() {
       <Hero />
       <Services />
       <Features />
-      <Pricing />
       <Faq />
       <Contact />
-      <Customers />
     </Layout>
   );
 }
