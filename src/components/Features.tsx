@@ -3,36 +3,36 @@ import { CheckIcon } from "@heroicons/react/24/solid";
 
 const contents = [
   {
-    title: "Dashboard",
+    title: "Smart Porter Matching",
     description:
-      "The current system at railway stations lacks a structured approach to handle passengers' luggage.",
+      "Kuliseva employs advanced algorithms to match you with the most suitable and available porters based on your specific needs.",
     features: [
-      "Passengers can request porter services through a mobile app or web port",
-      "eliminating the need to search for assistance physically.",
+      "Enhances efficiency by minimizing waiting time",
+      "Ensures you receive specialized assistance tailored to your requirements.",
       
     ],
     image: "/images/features/dashboard.svg",
     order: false,
   },
   {
-    title: "Products",
+    title: "Contactless Payments",
     description:
-      "The purpose of the train porter service project is to address the challenges faced by passengers in handling their luggage while traveling by train.",
+      "Enjoy a secure and convenient payment experience with Kuliseva's contactless payment options, including credit/debit cards and digital wallets.",
     features: [
-      "Porters will provide information and assistance regarding train schedules",
-      "Porters will be trained in safety protocols and emergency procedures",
+      "Promotes a seamless transaction process, reducing the need for cash and providing a hygienic payment solution for users.",
+      "Porters will instantly receive money in their accounts",
       
     ],
     image: "/images/features/product.svg",
     order: true,
   },
   {
-    title: "Inventory",
+    title: "Real-Time Service Tracking",
     description:
-      "Many travelers struggle with heavy or bulky bags, making it difficult for them to navigate crowded platforms and board trains.",
+      "Track the location and progress of your assigned porter in real-time, providing transparency and control over the luggage assistance process.",
     features: [
-      "The project aims to provide a dedicated service that alleviates this burden",
-      // "Quis autem vel eum iure reprehenderit",
+      "Offers peace of mind, allowing users to stay informed",
+      "Plan their schedule accordingly, ensuring a smooth and reliable service experience.",
      
     ],
     image: "/images/features/inventory.svg",
@@ -46,8 +46,7 @@ export function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-x-40 pt-16 pb-16">
         <h2 className="text-4xl font-bold text-center">Features</h2>
         <p className="pt-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          the problem statement for this project is to create an efficient 
-          and reliable porter service that addresses these issues.
+         Experience the power of Kuliseva's innovative features, from smart porter matching to real-time service tracking and secure contactless payments, ensuring a seamless and efficient railway station assistance every time
  .
         </p>
 
