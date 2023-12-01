@@ -59,11 +59,12 @@ export default function Contact() {
   return (
     <div className="bg-gray-50 dark:bg-neutral-900" id="contact">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 text-center">
-        <h2 className="text-4xl font-bold">Contact</h2>
+        <h2 className="text-4xl font-bold">Contact Us</h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Want to contact us? Choose an option below and well be happy to show
-          you how Halley can transform her companys web experience.
+         Our dedicated support team at Kuliseva is ready to address your
+          inquiries promptly, ensuring a smooth and hassle-free experience for
+          all your porter service needs.
         </p>
       </div>
 
@@ -71,23 +72,23 @@ export default function Contact() {
         <div>
           <h2 className="text-lg font-bold">Contact Halley</h2>
           <p className="max-w-sm mt-4 mb-4 dark:text-neutral-400">
-            Have something to say? We are here to help. Fill up the form or send
-            email or call phone.
+           Need assistance or have questions? Reach out to us through our
+            Contact section.
           </p>
 
           <div className="flex items-center mt-8 space-x-2 text-dark-600 dark:text-neutral-400">
             <MapIcon className="w-4 h-4" />
-            <span>Av Tomas Marsano 700, Lima - Perú</span>
+            <span>School Of IT, RGPV, Bhopal</span>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <EnvelopeIcon className="w-4 h-4" />
-            <a href="mailto:hello@halley.vercel.app">hello@halley.vercel.app</a>
+            <a href="mailto:yashagni1992@gmail.com">yashagni1992@gmail.com</a>
           </div>
 
           <div className="flex items-center mt-2 space-x-2 text-dark-600 dark:text-neutral-400">
             <PhoneIcon className="w-4 h-4" />
-            <a href="tel:51931999999">+51 931999999</a>
+            <a href="tel:917999722712">+91 7999722712</a>
           </div>
         </div>
 
