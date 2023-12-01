@@ -3,24 +3,29 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const faqitems = [
   {
-    question: "What is your refund policy?",
+    question: "How do I book a porter using Kuliseva?",
     response:
-      "If youre unhappy with your purchase for any reason, email us within 90 days and well refund you in full, no questions asked.",
+      "Booking a porter is easy! Simply log in to the Kuliseva app, choose your location, select the services you need, and proceed to payment. Your porter will be assigned, and you can track their arrival in real time.",
   },
   {
-    question: "Do you offer technical support?",
+    question: "Are the porters on Kuliseva trustworthy?",
     response:
-      "No, we dont offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Absolutely! We ensure all our porters undergo thorough training and background checks. Kuliseva is committed to providing reliable and trustworthy personnel for your luggage assistance.",
   },
   {
-    question: "What is your refund policy? If youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reasonIf youre unhappy with your purchase for any reason",
+    question: "Can I track the location of my assigned porter?",
     response:
-      "If youre unhappy with your purchase for any reason, email us within 90 days and well refund you in full, no questions asked.",
+      "Yes, you can! Kuliseva offers real-time tracking, allowing you to monitor your porter's location from the moment they are assigned until the completion of the service.",
   },
   {
-    question: "What forms of payment do you accept?",
+    question: "What payment options are available on Kuliseva?",
     response:
-      "You can use any debit or credit card to pay for a subscription. We secure your card details and process payments via Stripe. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "We provide secure payment options, including credit/debit cards and digital wallets, ensuring a safe and convenient transaction process for our users.",
+  },
+  {
+    question: "How can I get in touch with Kuliseva's customer support?",
+    response:
+      "For any assistance, our 24/7 customer support team is ready to help. Reach out through the Contact section in the app, and we'll promptly address your queries and concerns.",
   },
 ];
 
@@ -35,8 +40,7 @@ export default function Faq() {
       </h2>
 
       <p className="pt-6 pb-16 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        Explore our Frequently Asked Questions to find solutions and gain insights into using Kuliseva effortlessly for your railway station porter needs.
       </p>
       <div className="mx-auto w-full max-w-2xl rounded-2xl bg-transparent dark:bg-transparent">
         {faqitems.map(({ question, response }) => (
