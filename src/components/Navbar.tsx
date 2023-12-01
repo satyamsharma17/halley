@@ -9,11 +9,11 @@ import { XMarkIcon } from "@heroicons/react/24/solid";
 const navigation = [
   { name: "Home", href: "/", current: false },
   { name: "Services", href: "#services", current: false },
-  { name: "Pricing", href: "#pricing", current: false },
+  { name: "Pricing", href: "/Pricing", current: false },
   { name: "Faq", href: "#faq", current: false },
   { name: "Contact", href: "#contact", current: false },
-  { name: "SignUp", href: "/SignUp", current: false },
-  { name: "Price", href: "/Prices", current: false },
+  // { name: "SignUp", href: "/SignUp", current: false },
+  // { name: "Price", href: "/Prices", current: false },
 ];
 
 function classNames(...classes: any) {
