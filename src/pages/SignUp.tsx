@@ -72,7 +72,7 @@ export default function SignUp() {
           </div>
         </form>
         <p className="text-center text-white text-xs">
-          &copy;2020 Acme Corp. All rights reserved.
+          &copy;2023 KuliSeva LTD. All rights reserved.
         </p>
       </div>
     </div>
