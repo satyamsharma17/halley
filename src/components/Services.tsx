@@ -23,28 +23,23 @@ const services = [
     alt: "Service description",
   },
   {
-    title: "Secure Payment Options
-",
+    title: "Secure Payment Options",
     description:
-      "Enjoy peace of mind with secure and convenient payment methods, ensuring a hassle-free transaction for porter services..
-",
+      "Enjoy peace of mind with secure and convenient payment methods, ensuring a hassle-free transaction for porter services..",
     image: "/images/services/4.svg",
     alt: "Service description",
   },
   {
-    title: "24/7 Customer Support
-",
+    title: "24/7 Customer Support",
     description:
-      "Receive prompt assistance with our dedicated 24/7 customer support, addressing any queries or concerns to enhance user satisfaction.
-",
+      "Receive prompt assistance with our dedicated 24/7 customer support, addressing any queries or concerns to enhance user satisfaction.",
     image: "/images/services/5.svg",
     alt: "Service description",
   },
   {
     title: "User-Friendly Interface",
     description:
-      "Navigate effortlessly through Kuliseva's intuitive interface, making the porter hiring process simple and accessible for all users..
-",
+      "Navigate effortlessly through Kuliseva's intuitive interface, making the porter hiring process simple and accessible for all users.",
     image: "/images/services/5.svg",
     alt: "Service description",
   },
