@@ -2,49 +2,48 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "The hassle of carrying heavy luggage
-",
+    title: "Effortless Porter Booking",
     description:
-      "Travelers who travel with  heavy luggage find it difficult  to carry them on their own,  which can be exhausting and  time-consuming.",
+      "Quickly hire porters for seamless luggage assistance at railway stations, ensuring a stress-free travel experience.",
     image: "/images/services/1.svg",
     alt: "Service description",
   },
   {
-    title: "Commodi mollitia",
+    title: "Trained and Reliable Staff",
     description:
-      "Nemo quos doloribus quo omnis mollitia nostrum excepturi impedit veniam ",
+      "Access a network of trained and trustworthy porters, providing reliable handling of your belongings with expertise.",
     image: "/images/services/2.svg",
     alt: "Service description",
   },
   {
-    title: "Neque numquam",
+    title: "Real-time Tracking",
     description:
-      "Accusantium eius omnis minus debitis est odio earum labore ad itaque mollitia",
+      "Stay informed with real-time tracking of your porter, enhancing transparency and control over the luggage assistance process.",
     image: "/images/services/3.svg",
     alt: "Service description",
   },
   {
-    title: "Inconvenience of  finding porters
+    title: "Secure Payment Options
 ",
     description:
-      "Finding reliable porters at  airports, railway stations, and  other transit points can be  challenging and time-  consuming for travelers.
+      "Enjoy peace of mind with secure and convenient payment methods, ensuring a hassle-free transaction for porter services..
 ",
     image: "/images/services/4.svg",
     alt: "Service description",
   },
   {
-    title: "Limited payment  options
+    title: "24/7 Customer Support
 ",
     description:
-      "Currently, travelers have  limited payment options  when it comes to paying for  porter services, which can be  inconvenient and frustrating.
+      "Receive prompt assistance with our dedicated 24/7 customer support, addressing any queries or concerns to enhance user satisfaction.
 ",
     image: "/images/services/5.svg",
     alt: "Service description",
   },
   {
-    title: "Limited payment  options",
+    title: "User-Friendly Interface",
     description:
-      "Currently, travelers have  limited payment options  when it comes to paying for  porter services, which can be  inconvenient and frustrating.
+      "Navigate effortlessly through Kuliseva's intuitive interface, making the porter hiring process simple and accessible for all users..
 ",
     image: "/images/services/5.svg",
     alt: "Service description",
@@ -57,8 +56,7 @@ export function Services() {
         <h2 className="text-4xl font-bold">What is KuliSeva?</h2>
 
         <p className="pt-6 pb-6 text-base max-w-2xl text-center m-auto dark:text-neutral-400">
-          Halley is consectetur Obcaecati veniam explicabo perspiciatis sapiente
-          saepe sequi atque aut ullam aliquam.
+         Kuliseva is a user-friendly web app revolutionizing railway station experiences by facilitating easy and efficient hiring of porters.
         </p>
       </div>
 
